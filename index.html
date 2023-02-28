@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla Homepage redesing</title>
+
+  <!-- <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script> -->
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js" defer type="text/javascript" ></script>
+  <script src="./bx/dist/jquery.bxslider.min.js" type="text/javascript"  defer ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/2.4.0/jquery.waitforimages.min.js" defer></script>
+  <!-- <script src="./script/jquery.fitvids.js"></script> -->
+  
+  
+  <script src="./script/script.js"  type="text/javascript" defer ></script>
+
+  
+  <!-- <link rel="stylesheet" type="text/css" href="/style/slick.css"/>
+  <link rel="stylesheet" href="./style/slick-theme.css">
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+  <link rel="shortcut icon"  href="./favicon.ico" />
+  <link rel="stylesheet" href="./bx/dist/jquery.bxslider.css">
+  <!-- <link rel="stylesheet" href="./fullpage/jquery.fullPage.css"> -->
+  
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP&amp;display=swapps://github.com/produle/MockFlowFont/blob/master/MockFlowFont1/dist/MockFlowFont1.woff'>
+  <link rel='stylesheet' href='https://assets.css-tricks.ir/font/font.css'>
+  <link rel="stylesheet" href="./style/sns_style.css">
+  <link rel="stylesheet" href="./style/style.css"> 
+
+</head>
+<body>
+  <!-- #wrap>header+main+section+aside+article+footer -->
+  <div id="wrap">
+    <div class="header-wrap">
+      <header>
+        <div class="inner">
+          <div class="tesla-logo"><a href="javascript:void(0)">logo</a></div>
+          <ul class="main-menu">          
+            <li><a href="javascript:void(0)">Model</a>
+             <ul class="subMenu modelMenu">
+               <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_Model_S.png" alt="model">
+                  Model S
+                </a>
+               </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_Model_3.png" alt="model">
+                  Model 3
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_Model_X.png" alt="model">
+                  Model X
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_Model_Y.png" alt="model">
+                  Model Y
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_cybertruck.png" alt="model">
+                  Cyperturk
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="javascript:void(0)">Pride</a>
+            <ul class="subMenu prideMenu">
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img01.png" alt="pride">
+                  안전을 위한 설계</a></li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img02.png" alt="pride">
+                  운전의 미래</a></li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img03.png" alt="pride">
+                  듀얼 모터</a></li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img04.png" alt="pride">
+                  운전자 중심의 디자인</a></li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img05.png" alt="pride">
+                  압도적인 가속력</a></li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/tcl-img06.png" alt="pride">
+                  전기 파워트레인</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:void(0)">Powerwall</a>
+            <ul class="subMenu powerMenu">
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_power01.png" alt="powerImage">
+                  백업 보호
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_power02.png" alt="powerImage">
+                  모든 전력을 공급
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_power03.png" alt="powerImage">
+                  연중 무휴
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <img src="./image/sub_power04.png" alt="powerImage">
+                  Powerwall 사양
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="javascript:void(0)">Brand Stroy</a>
+            <ul class="subMenu stroyMenu">
+              <li><a href="javascript:void(0)">brodcast</a></li>
+              <li><a href="javascript:void(0)">sns</a></li>
+            </ul>
+          </li>
+          <li><a href="javascript:void(0)">Event</a>
+            <ul class="subMenu eventMenu">
+              <li><a href="javascript:void(0)">이달의 이벤트</a></li>
+              <li><a href="javascript:void(0)">연간 이벤트</a></li>
+            </ul>
+          </li>
+          <li class="search-starter">
+            <a href="javascript:void(0)">검색</a>
+          </li>
+          <li class="basket-starter">
+            <a href="javascript:void(0)">장바구니</a>
+            <div class="basket">
+              <div class="arrow"></div>
+              <div class="message">
+                장바구니에 담긴 상품이 없습니다.
+              </div>
+              <ul>
+                <li><a href="javascript:void(0)">장바구니</a></li>
+                <li><a href="javascript:void(0)">저장된 항목</a></li>
+                <li><a href="javascript:void(0)">조회 내역</a></li>
+                <li><a href="javascript:void(0)">로그인</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="menu-starter">
+            <a>
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- 모바일 화면에서 사용하기 위해 구조만 필요함으로 href내용은 삭제함 -->
+          </li>
+        </ul>
+        <div class="search-wrap">
+          <div class="search">
+            <div class="shadow">             
+            </div>
+            <div class="textfield">
+              <input type="text" placeholder="검색어를 입력해주세요">
+              <div class="search-icon"></div>
+              <div class="search-closer"></div>
+
+
+            </div>
+            <div class="autocompletes">
+              <h3>빠른 링크</h3>
+              <ul>
+                <li><a href="javascript:void(0)">전기충전 관련 자주 하는 질문</a></li>
+                <li><a href="javascript:void(0)">신제품 차량 정보</a></li>
+                <li><a href="javascript:void(0)">A/S 관련 문의</a></li>
+                <li><a href="javascript:void(0)">How-To동영상</a></li>
+                <li><a href="javascript:void(0)">Tesla 고객 센터</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="clone-menu">
+          <ul>
+            <li><a href="javascript:void(0)">Model S</a></li>
+            <li><a href="javascript:void(0)">Model 3</a></li>
+            <li><a href="javascript:void(0)">Model X</a></li>
+            <li><a href="javascript:void(0)">Model Y</a></li>
+            <li><a href="javascript:void(0)">Cybertruck</a></li>
+            <li><a href="javascript:void(0)">Powerwall</a></li>
+          </ul>
+        </div>
+        </div>
+        
+  
+      </header>
+      <div class="hero">      
+        <div class="slideshow">
+          <div class="hero-slider">
+            <!-- <a href="javascript:void(0)">
+              <img src="./image/test2.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/test3.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/test4.jpg" alt="slide">
+            </a>             -->
+            <div class="slide1"><a href="javascript:void(0)"></a></div>
+            <div class="slide2"><a href="javascript:void(0)"></a></div>
+            <div class="slide3"><a href="javascript:void(0)"></a></div>
+            <div class="slide4"><a href="javascript:void(0)"></a></div>
+            <div class="slide5"><a href="javascript:void(0)"></a></div>
+            <div class="slide6"><a href="javascript:void(0)"></a></div>
+            <!-- <a href="javascript:void(0)">
+              <img src="./image/slide_image01.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/slide_image02.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/slide_image03.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/slide_image04.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/slide_image05.jpg" alt="slide">
+            </a>            
+            <a href="javascript:void(0)">
+              <img src="./image/slide_image06.jpg" alt="slide">
+            </a>              -->
+         </div>
+         <!-- <div class="slideshow_nav">
+          <a href="javascript:void(0)" class="prev"><i class="xi-angle-left xi-3x"></i></a>
+          <a href="javascript:void(0)" class="next"><i class="xi-angle-right xi-3x"></i></a>
+         </div> -->
+         <div class="indicator">
+     <!-- <a href="javascript:void(0)">1</a>
+          <a href="javascript:void(0)" class="active"></a>
+          <a href="javascript:void(0)"></a>
+          <a href="javascript:void(0)"></a> -->
+         </div> 
+        </div>
+      </div> 
+      <div class="heroMenu">
+        <ul>     
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./image/icon1.gif" alt="icon1">
+              <span>견적 내기</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./image/icon2.gif" alt="icon2">
+              <span>구매 상담 신청</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./image/icon3.gif" alt="icon3">
+              <span>시승 신청</span>
+            </a>
+          </li>               
+          <li>
+            <a href="javascript:void(0)">
+              <img src="./image/icon4.gif" alt="icon4">
+              <span>주문 하기</span>
+            </a>
+          </li>               
+      </div>
+    </div>
+
+    <main>
+      <div class="pride">
+        <a href="javascript:void(0)">
+          <h2>Tesla Pride</h2>
+        </a>
+        <div class="tcl-call">
+          <ul>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img01.png" alt="안전을 위한 설계-이미지">
+              <strong>Tesla는 차량의 안전성을<br> 최대한 보장할 수 있도록 설계</strong>
+             </a>
+             <h3>안전을 위한 설계</h3>
+             
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img02.png" alt="운전의 미래-이미지">
+              <strong>오토파일럿의 첨단 안전 및 편의 기능</strong>
+             </a>
+             <h3>운전의 미래</h3>
+             
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img03.png" alt="듀얼 모터-이미지">
+              <strong>향상된 효율성과 우수한 내구성을 제공,<br> 차량의 유지보수를 최소화</strong>
+             </a>
+             <h3>듀얼 모터</h3>
+             
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img04.png" alt="운전자 중심의 디자인-이미지">
+              <strong>스마트폰을 키로 사용,<br> 중앙 15인치 터치스크린에서 모든 조작을 제어</strong>
+             </a>
+             <h3>운전자 중심의 디자인</h3>
+             
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img05.png" alt="압도적인 가속력-이미지">
+              <strong>듀얼 모터 상시 사륜구동(AWD),<br> 20인치 Überturbine 휠 및 퍼포먼스 브레이크 옵션을 장착</strong>
+             </a>
+             <h3>압도적인 가속력</h3>
+             
+            </li>
+            <li>
+              <a href="javascript:void(0)">
+                <img src="./image/tcl-img06.png" alt="전기 파워트레인-이미지">
+                <strong>타의 추종을 불허하는 압도적인 성능,<br> 주행 가능 거리 및 효율성을 발휘하도록 설계</strong>
+             </a>
+             <h3>전기 파워트레인</h3>
+             
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="tcl-call">
+          <ul>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img01.png" alt="안전을 위한 설계-이미지">
+             </a>
+             <h3>안전을 위한 설계</h3>
+             <p>
+              안전은 모든 Tesla에서 가장 중요한 부분입니다. <br> Tesla는 차량의 안전성을 최대한 보장할 수 있도록 설계합니다.
+             </p>
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img02.png" alt="운전의 미래-이미지">
+             </a>
+             <h3>운전의 미래</h3>
+             <p>
+              오토파일럿의 첨단 안전 및 편의 기능이 있습니다.설계되었습니다.
+            </p>
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img03.png" alt="듀얼 모터-이미지">
+             </a>
+             <h3>듀얼 모터</h3>
+             <p>
+              Tesla 상시 사륜구동(AWD)에 탑재된 두 개의 독립 모터는 
+              향상된 효율성과 우수한 내구성을 제공합니다. , 차량의 유지보수를 최소화하는데 도움이 됩니다. 
+            </p>
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img04.png" alt="운전자 중심의 디자인-이미지">
+             </a>
+             <h3>운전자 중심의 디자인</h3>
+             <p>
+              스마트폰을 키로 사용하고, 중앙 15인치 터치스크린에서 모든 조작을 제어할 수 있습니다. 글래스 루프가 앞뒤로 이어져 있어 전 좌석에 개방감을 제공합니다.
+            </p>
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img05.png" alt="압도적인 가속력-이미지">
+             </a>
+             <h3>압도적인 가속력</h3>
+             <p>
+              듀얼 모터 상시 사륜구동(AWD), 20인치 Überturbine 휠 및 퍼포먼스 브레이크 옵션을 장착하여 어떤 기후 조건에서도 완벽하게 제어할 수 있습니다.  
+            </p>
+            </li>
+            <li>
+             <a href="javascript:void(0)">
+              <img src="./image/tcl-img06.png" alt="전기 파워트레인-이미지">
+             </a>
+             <h3>전기 파워트레인</h3>
+             <p>
+              Model S의 플랫폼은 배터리 테크놀로지와 통합된 파워트레인으로 타의 추종을 불허하는 압도적인 성능, 주행 가능 거리 및 효율성을 발휘하도록 설계되었습니다.
+            </p>
+            </li>
+          </ul>
+        </div> -->
+        
+      </div>
+    </main>
+    <section>
+      <div class="inner">
+        <div class="video-title">       
+          <h2>모든 전력을 공급</h2>
+          <p>태양광 에너지를 저장하여 전력망에 대한 의존도를 줄여줍니다. </p>
+        </div>
+        <div id="tcl-video">
+          <ul class="pcMode">
+            <li class="video1">
+              <video src="./image/_Desktop_1.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video2">
+              <video src="./image/_Desktop_2.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video3">
+              <video src="./image/_Desktop_3.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video4">
+              <video src="./image/_Desktop_4.mp4" autoplay  muted  controls loop></video>
+            </li>
+            <li class="video5">
+              <video src="./image/_Desktop_5.mp4" autoplay  muted  controls loop></video>
+            </li>
+          </ul>
+          <ul class="mobileMode">
+            <li class="video1">
+              <video src="./image/_Mobile_1.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video2">
+              <video src="./image/_Mobile_2.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video3">
+              <video src="./image/_Mobile_3.mp4" autoplay muted  controls loop></video>
+            </li>
+            <li class="video4">
+              <video src="./image/_Mobile_4.mp4" autoplay  muted  controls loop></video>
+            </li>
+            <li class="video5">
+              <video src="./image/_Mobile_5.mp4" autoplay  muted  controls loop></video>
+            </li>
+          </ul>
+        </div>
+        
+        <div id="video-dests">
+          <ul>
+            <li class="video-dest1"  onclick="vclick(1)">
+              <div class="line"></div>
+              <p>태양광 에너지 저장</p>
+            </li>
+            <li  class="video-dest2"  onclick="vclick(2)">
+              <div class="line"></div>
+              <p>언제든지 저장된 전력을 사용하여 주택에 전원을 공급</p>
+            </li>
+            <li  class="video-dest3"  onclick="vclick(3)">
+              <div class="line"></div>
+              <p>햇빛이 비치치 않는 밤</p>
+            </li>
+            <li  class="video-dest4"  onclick="vclick(4)">
+              <div class="line"></div>
+              <p>또는 정전시 전원이 꺼진 경우</p>
+            </li>
+            <li  class="video-dest5"  onclick="vclick(5)">
+              <div class="line"></div>
+              <p>햇빛이 비치거나 전력망이 복구될 때 충전</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <article>
+      <ul class="brandStroy">
+        <li class="brand_video">
+          <div>
+            <video src="./image/tesla_video.mp4" autoplay  muted  controls></video>
+          </div>
+        </li>
+        <li>
+          <ul class="cards">
+            <li>
+              <a href="javascript:void(0)" class="card">
+                <img src="./image/model-s.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                    <img class="card__thumb" src="./image/face1.png" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">Jessica Parker</h3>            
+                      <span class="card__status">3 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="card__description">tesla를 타고 여행을 가면 가족들이 너무 행복해합니다.</p>
+                </div>
+              </a>      
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="card">
+                <img src="./image/model-x.png" class="card__image" alt="" />
+                <div class="card__overlay">        
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                    <img class="card__thumb" src="./image/face3.png" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">Austin Wolfe</h3>
+                      <span class="card__status">15 hours ago</span>
+                    </div>
+                  </div>
+                  <p class="card__description">거래처에 갈때 tasla를 타고 가니 자신감이 더 올라갑니다.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="card">
+                <img src="./image/model-y.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                    <img class="card__thumb" src="./image/face2.png" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">Jacob Childress</h3>
+                      <!-- <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>             -->
+                      <span class="card__status">1 hour ago</span>
+                    </div>
+                  </div>
+                  <p class="card__description">운전이 이렇게 즐겁고 행복한지 몰랐네요</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:void(0)" class="card">
+                <img src="./image/space.png" class="card__image" alt="" />
+                <div class="card__overlay">
+                  <div class="card__header">
+                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                    <img class="card__thumb" src="./image/face4.png" alt="" />
+                    <div class="card__header-text">
+                      <h3 class="card__title">Park sujan</h3>
+                      <span class="card__status">23 hours ago</span>
+                    </div>          
+                  </div>
+                  <p class="card__description">안전하다는 느낌을 받으며 운전하니 더 기분좋게 주행합니다.</p>
+                </div>
+              </a>
+            </li>    
+          </ul>
+
+        </li>
+      </ul>
+    </article>
+    <footer>
+      <div id="footerWrap">
+        <div class="f-Title">
+          <a href="javascript:void(0)"><img src="./image/tesla_logo.png" alt="footerLogo"></a>
+          <button class="f-Button">view <i class="xi-angle-up"></i></button>
+          <!-- click - "xi-angle-down" -->
+        </div>
+        <ul class="f-MenuWrap">
+          <li>
+            <a href="javascript:void(0)"><img src="./image/Tesla_giftcard.png" alt="giftcard"></a>
+          </li>
+          <li>
+            <ul class="f-Menu">
+              <li><a href="javascript:void(0)">Tesla © 2023</a></li>
+              <li><a href="javascript:void(0)">개인정보 처리방침 및 법적고지</a></li>
+              <li><a href="javascript:void(0)">이용 약관</a></li>
+              <li><a href="javascript:void(0)">문의하기</a></li>
+              <li><a href="javascript:void(0)">채용정보</a></li>
+              <li><a href="javascript:void(0)">새 소식</a></li>
+              <li><a href="javascript:void(0)">위치</a></li>
+            </ul>
+            <p>테슬라코리아 유한회사 | 사업자등록번호 : 524-88-00237 | 데이비드존파인스타인, 리리 | 통신판매업신고: 제2016-서울강남-02964호 | 사업자정보확인 | 호스팅제공자: Tesla Inc. </p>
+            <p>주소 : 서울특별시 강남구 테헤란로 134, 14층 | 대표전화 : 080-617-1388 </p>
+            <a href="javascript:void(0)"><address>southkorea@tesla.com</address></a>
+            
+        
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <section>
+    <div class="flex-container">
+      <div class="flex-slide home">
+        <div class="flex-title flex-title-home">Model S</div>
+        <div class="flex-about flex-about-home">
+          <p>시네마틱 경험</p>
+            <ul>
+              <li>좌우 각도 조절 기능이 있는 17인치 터치스크린</li>
+              <li>2200 x 1300의 고해상도 트루 컬러(True color) 지원</li>
+              <li>게임 및 영화 등을 위한 탁월한 반응성을 제공</li>
+            </ul>
+          </div>
+      </div>
+      <div class="flex-slide about">
+        <div class="flex-title">Model 3</div>
+        <div class="flex-about">
+          <p>Model 3의 내부</p>
+          <ul>
+            <li>스마트폰을 키로 사용</li>
+            <li>중앙 15인치 터치스크린에서 모든 조작을 제어</li>
+            <li>글래스 루프가 앞뒤로 이어져 있어 전 좌석에 개방감을 제공</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-slide work">
+        <div class="flex-title">Model X</div>
+        <div class="flex-about">
+          <p>루디크러스를 넘어</p>
+          <ul>
+            <li>도로 상의 SUV 중 압도적인 성능과 가속력</li>
+            <li>뛰어난 퍼포먼스를 자랑하는 SUV</li>
+            <li>업데이트된 배터리 구조</li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-slide contact">
+        <div class="flex-title">Model Y</div>
+            <div class="flex-about">
+              <p>모두를 위한 공간
+                </p>
+                <ul>
+                  <li>최대 5명이 탑승, 장비도 적재 가능</li>
+                  <li>각 2열 좌석은 독립적으로 폴딩</li>
+                  <li>후면 트렁크는 깊은 곳까지 문이 열림</li>
+                </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+</body>
+</html>
